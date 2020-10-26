@@ -7,11 +7,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        var joeysCar = Car()
+        var dannysCar = Car(theName: "B", theLane: 2, theSpeed: 2.1)
+        var vincesCar = Car()
+        vincesCar.lane = 3
+        vincesCar.getRandomSpeed()
+        joeysCar.name = "A"
+        vincesCar.name = "C"
+        
     }
 
 

@@ -15,6 +15,7 @@
 		37F7505B2546FE3E00CF5910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F750592546FE3E00CF5910 /* LaunchScreen.storyboard */; };
 		37F750662546FE3E00CF5910 /* raceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F750652546FE3E00CF5910 /* raceTests.swift */; };
 		37F750712546FE3E00CF5910 /* raceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F750702546FE3E00CF5910 /* raceUITests.swift */; };
+		37F750822546FF8F00CF5910 /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F750812546FF8F00CF5910 /* car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		37F7506C2546FE3E00CF5910 /* raceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F750702546FE3E00CF5910 /* raceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raceUITests.swift; sourceTree = "<group>"; };
 		37F750722546FE3E00CF5910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F750812546FF8F00CF5910 /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				37F7504E2546FE3C00CF5910 /* AppDelegate.swift */,
 				37F750502546FE3C00CF5910 /* SceneDelegate.swift */,
 				37F750522546FE3C00CF5910 /* ViewController.swift */,
+				37F750812546FF8F00CF5910 /* car.swift */,
 				37F750542546FE3C00CF5910 /* Main.storyboard */,
 				37F750572546FE3E00CF5910 /* Assets.xcassets */,
 				37F750592546FE3E00CF5910 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				37F750532546FE3C00CF5910 /* ViewController.swift in Sources */,
 				37F7504F2546FE3C00CF5910 /* AppDelegate.swift in Sources */,
+				37F750822546FF8F00CF5910 /* car.swift in Sources */,
 				37F750512546FE3C00CF5910 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
